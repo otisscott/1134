@@ -1,5 +1,5 @@
 def shift(lst, k, direction="left"):
-    lst_copy = lst.copy()
+    lst_copy = list(lst)
     for ind in range(len(lst)):
         if direction == "left":
             if ind + k >= len(lst):

@@ -1,0 +1,13 @@
+1.) a.) Big O notation is based on the term with the largest exponential value, therefore this would be O(n^2)
+
+    b.) With the constants removed, the equation becomes n^2/n which is = n
+
+    c.) The largest exponential value is n^2, however, the whole function is rooted, making the squared functionally n^1
+
+2.) a.) False. n^2*n^1/2 != n^3
+
+    b.) True.
+
+    c.) True. log(n^2) = 2log(n) and then the constant can be removed to get log(n)
+
+3.) 1 < 700 < (log(n^(1/2)) <= log(n)) < n/log(n) < (n^(1/2) <= (9n)^(1/2)) < (n/3 <= n) <

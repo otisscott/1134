@@ -35,7 +35,10 @@ class Vector:
         return str(self)
 
     def __sub__(self, other):
-        return self
+        result = []
+        for j in range(len(self)):
+            result.append(self[j] - other[j])
+        return Vector(result)
 
     def __neg__(self):
         d = []
